@@ -2,15 +2,15 @@ import React from 'react';
 import {Navbar,Nav, Container, NavDropdown,Form } from 'react-bootstrap'
 import { useSelector } from "react-redux";
 import { useNavigate } from 'react-router-dom'
-import {logoutUser} from '../../../_actions/user_action'
-
+import axios from 'axios'
 
 function NavBar() {
   const user = useSelector(state => state.userReducer)
   const history = useNavigate();
 
+
   const logoutHandler = () => {
-    logoutUser().then((response) => {
+    axios.get('/api/users/logout').then(response=>{
       if(response.status===200){
         history('/login')
       }else{

@@ -22,10 +22,6 @@ export function registerUser(dataTosubmit) {
     } // send to reducer
 }
 
-export function logoutUser() {
-    const request =axios.get('/api/users/logout')
-    return request
-}
 
 export function auth() {
     const request = axios.get('/api/users/auth')
