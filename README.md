@@ -18,8 +18,10 @@ that is frequently reusable in multiple locations with minimal changes
 
 #### The examples of Application 🖥
 
-<img width="300" alt="Screen Shot 2022-05-06 at 4 53 55 PM" src="https://user-images.githubusercontent.com/76993044/167090637-9deceaae-b54f-4016-a6e7-e92df871dda4.png">
-<img width="300" alt="Screen Shot 2022-05-06 at 4 54 50 PM" src="https://user-images.githubusercontent.com/76993044/167090782-88f32eb3-51b8-4979-b764-7ed25e993442.png">
+![1](https://user-images.githubusercontent.com/61266176/175777637-bd9f0c87-c04e-48ff-b233-3790e739c1e7.png)
+![2](https://user-images.githubusercontent.com/61266176/175777639-2d33b741-bee2-4b96-b610-d4c437e3301c.png)
+![3](https://user-images.githubusercontent.com/61266176/175777641-637cdcdb-d8f7-4ed3-a794-af29c65970b5.png)
+
 
 <br/>
 
