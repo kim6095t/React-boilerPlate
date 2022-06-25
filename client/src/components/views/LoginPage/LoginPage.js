@@ -36,6 +36,8 @@ function LoginPage() {
         console.log(response)
         //로그인 성공시 랜딩페이지로 이동
         if(response.payload.loginSuccess){
+            localStorage.setItem('userId', response.payload.userId);
+            localStorage.setItem('rememberMe', values.id);
             history('/')
         }else{
             alert('Error')
